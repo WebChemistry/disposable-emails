@@ -1,0 +1,19 @@
+{
+    "name": "webchemistry/disposable-emails",
+    "require": {
+        "php": ">= 8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebChemistry\\DisposableEmails\\": "src",
+            "WebChemistry\\DisposableEmailsBuild\\": "build/lib"
+        }
+    },
+    "require-dev": {
+        "nette/tester": "^2.4",
+        "phpstan/phpstan": "^1.9",
+        "nette/php-generator": "^4.0",
+        "symfony/http-client": "^6.2",
+        "typertion/php": "^1.0"
+    }
+}
